@@ -2,6 +2,12 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 
+// Pages
+import Home from './pages/Home';
+import About from './pages/About'
+import Projects from "./pages/Projects";
+import Contact from './pages/Contact'
+
 function App() {
   return (
     <Router>
@@ -9,9 +15,7 @@ function App() {
         <Route
           path="/"
           element={
-            <>
-              <h1>HOME</h1>
-            </>
+            <Home />
           }
         ></Route>
 
