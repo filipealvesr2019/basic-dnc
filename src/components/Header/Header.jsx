@@ -9,6 +9,17 @@ export default function Header(){
                 <div className="d-flex al-center jc-space-between">
                     <Link to="/"><img src={Logo} /></Link>
                 </div>
+                <nav>
+                <ul>
+                    <li>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
+                    </li>
+                </ul>
+
+                </nav>
             </div>
         </header>
     )
