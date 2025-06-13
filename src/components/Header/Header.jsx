@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Logo from '../../assets/dnc-logo.png'
+import './Header.css'
 export default function Header(){
 
     // ASSETS
