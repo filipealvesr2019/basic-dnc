@@ -7,6 +7,7 @@ import Twiter from '../../assets/facebookLogo.png';
 
 import BrasilLogo from '../../assets/facebookLogo.png';
 import USALogo from '../../assets/facebookLogo.png';
+import Logo from '../../assets/dnc-logo.png'
 
 import './Footer.css'
 export default function Footer(){
@@ -15,19 +16,13 @@ export default function Footer(){
     return (
         <footer>
             <div className="container">
-                <div className="d-flex al-center jc-space-between">
-                    <Link to="/"><img src={Facebook} /></Link>
-                      <nav>
-                <ul>
-                    <li>
-                    <Link to="/">Home</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
-                    </li>
-                </ul>
+                <div className="d-flex jc-space-between">
+                    <div className='footer-logo-col'>
+                 <img src={Logo} alt="" />
+                 <p>A escola que prepara você para as profissões em alta no mercado de trabalho.</p>
 
-                </nav>
+                    </div>
+           
                 </div>
               
             </div>
