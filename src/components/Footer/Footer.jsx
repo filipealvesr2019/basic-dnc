@@ -19,7 +19,7 @@ export default function Footer(){
                 <div className="d-flex jc-space-between">
                     <div className='footer-logo-col'>
                  <img src={Logo} alt="" />
-                 <p>A escola que prepara você para as profissões em alta no mercado de trabalho.</p>
+                 <p className='gray-1-color'>A escola que prepara você para as profissões em alta no mercado de trabalho.</p>
 
                     </div>
            
