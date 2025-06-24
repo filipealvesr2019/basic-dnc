@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
 import Facebook from "../../assets/facebookLogo.png";
-import Intagram from "../../assets/facebookLogo.png";
-import Linkedin from "../../assets/facebookLogo.png";
-import Twiter from "../../assets/facebookLogo.png";
+import Intagram from "../../assets/instagramLogo.png";
+import Linkedin from "../../assets/linkdinLogo.png";
+import Twiter from "../../assets/XLogo.png";
 
 import BrasilLogo from "../../assets/facebookLogo.png";
 import USALogo from "../../assets/facebookLogo.png";
@@ -22,7 +22,7 @@ export default function Footer() {
               A escola que prepara você para as profissões em alta no mercado de
               trabalho.
             </p>
-            <div className="d-flex social-links">]
+            <div className="d-flex social-links">
                 <a href="https://google.com" target="_blank">
                     <img src={Facebook}  />
                 </a>
