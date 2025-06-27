@@ -23,20 +23,34 @@ export default function Footer() {
               trabalho.
             </p>
             <div className="d-flex social-links">
-                <a href="https://google.com" target="_blank">
-                    <img src={Facebook}  />
-                </a>
-                 <a href="https://google.com" target="_blank">
-                    <img src={Twiter}  />
-                </a>
-                  <a href="https://google.com" target="_blank">
-                    <img src={Linkedin}  />
-                </a>
-                  <a href="https://google.com" target="_blank">
-                    <img src={Intagram}  />
-                </a>
+              <a href="https://google.com" target="_blank">
+                <img src={Facebook} />
+              </a>
+              <a href="https://google.com" target="_blank">
+                <img src={Twiter} />
+              </a>
+              <a href="https://google.com" target="_blank">
+                <img src={Linkedin} />
+              </a>
+              <a href="https://google.com" target="_blank">
+                <img src={Intagram} />
+              </a>
             </div>
+         
           </div>
+             <div className="d-flex">
+              <div className="footer-col">
+                <h3>Pages</h3>
+                <ul>
+                  <li>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
         </div>
       </div>
     </footer>
