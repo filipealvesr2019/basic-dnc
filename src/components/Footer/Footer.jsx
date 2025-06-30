@@ -38,6 +38,8 @@ export default function Footer() {
             </div>
          
           </div>
+            
+        </div>
              <div className="d-flex">
               <div className="footer-col">
                 <h3>Pages</h3>
@@ -51,7 +53,12 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-        </div>
+
+            <div className="d-flex jc-space-beteween footer-copy">
+              <p className="gray-1-color">
+                Copyright © DNC - 2024
+              </p>
+               </div>
       </div>
     </footer>
   );
