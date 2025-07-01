@@ -5,8 +5,8 @@ import Intagram from "../../assets/instagramLogo.png";
 import Linkedin from "../../assets/linkdinLogo.png";
 import Twiter from "../../assets/XLogo.png";
 
-import BrasilLogo from "../../assets/facebookLogo.png";
-import USALogo from "../../assets/facebookLogo.png";
+import BrasilLogo from "../../assets/brazilBandeira.svg";
+import USALogo from "../../assets/usaBandeira.svg";
 import Logo from "../../assets/dnc-logo.png";
 
 import "./Footer.css";
@@ -39,7 +39,6 @@ export default function Footer() {
          
           </div>
             
-        </div>
              <div className="d-flex">
               <div className="footer-col">
                 <h3>Pages</h3>
@@ -52,12 +51,20 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
+              <div className="footer-col">
+
+              </div>
             </div>
+        </div>
 
             <div className="d-flex jc-space-beteween footer-copy">
               <p className="gray-1-color">
                 Copyright © DNC - 2024
               </p>
+              <div className="langs-area d-flex">
+                <img src={BrasilLogo} height={"29px"}/>
+                <img src={USALogo} height={"29px"} />
+              </div>
                </div>
       </div>
     </footer>
