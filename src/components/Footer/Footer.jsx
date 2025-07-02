@@ -52,7 +52,16 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="footer-col">
-
+                <h3>Contact</h3>
+                <p className="gray-1-color">
+                  R. Justino Cobra, 61 – Vila Ema | São José dos Campos – SP | CEP 12243-030 
+                </p>
+                 <p className="gray-1-color">
+                  suporte@escoladnc.com.br
+                </p>
+                  <p className="gray-1-color">
+                  (19) 99187-4342
+                </p>
               </div>
             </div>
         </div>
