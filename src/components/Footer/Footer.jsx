@@ -40,7 +40,7 @@ export default function Footer() {
           </div>
             
              <div className="d-flex">
-              <div className="footer-col">
+              <div >
                 <h3>Pages</h3>
                 <ul>
                   <li>
