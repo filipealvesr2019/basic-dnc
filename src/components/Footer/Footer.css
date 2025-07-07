@@ -37,7 +37,7 @@
 }
 
 
-.footer a:hover{
+ a:hover{
    color: #0c70f2;
 }
 
@@ -45,7 +45,7 @@
     margin: 25px 40px 0 0;
     display: flex;
     flex-direction: column;
-    color: #4D5053;
+     color: #1d1d1d;
 }
 
 .footer-copy{
