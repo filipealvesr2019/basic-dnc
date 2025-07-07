@@ -52,6 +52,14 @@ a{
     letter-spacing: 2px;
 }
 
+p{
+    line-height: 150%;
+}
+
+.text-center{
+    text-align: center;
+}
+
 /* GRID */
 
 .container{
