@@ -1,4 +1,5 @@
-export default function Button(){
+import './Button.css'
+export default function Button({ arrow, buttonStyle, loading, children, ...props}){
     return (
         <>
         
