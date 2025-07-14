@@ -56,6 +56,10 @@
     column-gap: 23px;
 }
 
+.copyright{
+    margin-right: 2rem;   
+}
+
 @media screen and (max-width: 768px){
     .footer-col {
         margin: 0 0 0 0;
