@@ -15,3 +15,31 @@
     background-color: #0c70f2;
     color: white;
 }
+
+.button.primary:hover{
+    background-color: #0056b3;
+}
+
+
+/* SECONDARY */
+.button.secondary{
+    background-color: #1D1D1D;
+    color: white;
+}
+
+.button.secondary:hover{
+    background-color: #4D5053;
+}
+
+/* OUTLINE */
+.button.outline{
+    background-color: white;
+    color: #0c70f2;
+}
+
+.button.outline:hover{
+    background-color: #0c70f2;
+    color: white;
+}
+
+/* DISABLED */
