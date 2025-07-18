@@ -43,3 +43,8 @@
 }
 
 /* DISABLED */
+.button:disabled, .button:disabled>:hover{
+    background-color: #ccc;
+    color: #666;
+    pointer-events: none;
+}
