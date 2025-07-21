@@ -8,7 +8,7 @@ export default function Home() {
         <Header />
         <h1>Home</h1>
         <p>Subtitle</p>
-        <Button buttonStyle="primary">Ola!</Button>
+        <Button buttonStyle="outline" disabled>Ola!</Button>
         <Footer />
         </>
      )

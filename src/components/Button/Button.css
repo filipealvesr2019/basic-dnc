@@ -34,6 +34,7 @@
 /* OUTLINE */
 .button.outline{
     background-color: white;
+    border: 2px solid #0c70f2;
     color: #0c70f2;
 }
 
