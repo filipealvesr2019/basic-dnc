@@ -1,6 +1,6 @@
+import './Banner.css'
 
-
-export default function Banner() {
+export default function Banner(props) {
      return (
         <div>
 
