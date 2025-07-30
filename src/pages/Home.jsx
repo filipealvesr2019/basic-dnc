@@ -1,3 +1,4 @@
+import Banner from "../components/Banner/Banner";
 import Button from "../components/Button/Button";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
@@ -10,6 +11,7 @@ export default function Home() {
         <p>Subtitle</p>
         <Button buttonStyle="primary" arrow>Ola!</Button>
         <Footer />
+        <Banner title="Welcome to Our Site!" />
         </>
      )
 }
