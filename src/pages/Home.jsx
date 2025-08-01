@@ -10,7 +10,7 @@ export default function Home() {
         <h1>Home</h1>
         <p>Subtitle</p>
         <Button buttonStyle="primary" arrow>Ola!</Button>
-        <Banner title="Home" />
+        <Banner title="Home" image="about.jpg"/>
         <Footer />
         </>
      )
