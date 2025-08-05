@@ -1,6 +1,7 @@
 import './Banner.css'
 
 export default function Banner(props) {
+   console.log(props.image)
      return (
         <div className='banner d-flex al-end' style={{ backgroundImage: `url(/${props.image})`}}>
          <div className='container'>
