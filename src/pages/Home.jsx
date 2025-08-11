@@ -10,7 +10,9 @@ export default function Home() {
         <h1>Home</h1>
         <p>Subtitle</p>
         <Button buttonStyle="secondary" arrow>Ola!</Button>
+        <div className="container">
         <Hero />
+        </div>
         <Footer />
         </>
      )
