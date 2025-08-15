@@ -14,7 +14,7 @@ export default function ProjectsList(props) {
                </div>
                <h3>Pedro Alves</h3>
                <p>São Paulo, Brasil</p>
-               <img src={} alt="" />
+               <img src={LikedFilled} alt="" />
             </div>
          </div>
         </div>
