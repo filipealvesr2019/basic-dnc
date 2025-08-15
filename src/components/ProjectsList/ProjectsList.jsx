@@ -1,4 +1,5 @@
-import './ProjectsList.css'
+import './ProjectsList.css';
+import LikedFilled from '../../assets/like_filled.png'
 
 export default function ProjectsList(props) {
      return (
