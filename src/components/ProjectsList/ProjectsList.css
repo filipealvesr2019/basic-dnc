@@ -23,4 +23,25 @@
 
 .projects-grid {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 22px;
+}
+
+.projects-card .thumb {
+    background-position: center;
+    background-size: cover;
+    border-radius: 37px;
+    height: 430px;
+    width: 100px;
+}
+
+.projects-card h3 {
+    font-size: 25px;
+    margin: 20px 0 0 0;
+}
+
+
+.projects-card p {
+    font-size: 25px;
+    margin: 20px 0 0 0;
 }
