@@ -47,3 +47,19 @@
 }
 
 
+@media (max-width: 768px) {
+   .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 22px;
+}
+
+}
+
+@media (max-width: 568px) {
+     .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px 22px;
+}
+}
