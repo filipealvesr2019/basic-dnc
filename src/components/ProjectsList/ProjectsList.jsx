@@ -12,49 +12,49 @@ export default function ProjectsList(props) {
         </p>
       </div>
       <div className="projects-grid">
-        <div className="project-card d-flex jc-center fd-column">
+        <div className="projects-card d-flex jc-center fd-column ">
           <div className="thumb tertiary-background"></div>
           <h3>Pedro Alves</h3>
           <p>São Paulo, Brasil</p>
           <img src={LikedFilled} alt="" className="img" />
         </div>
-        <div className="project-card d-flex jc-center fd-column">
+        <div className="projects-card d-flex jc-center fd-column">
           <div className="thumb tertiary-background"></div>
           <h3>Pedro Alves</h3>
           <p>São Paulo, Brasil</p>
           <img src={LikedFilled} alt="" className="img" />
         </div>
-        <div className="project-card d-flex jc-center fd-column">
+        <div className="projects-card d-flex jc-center fd-column">
           <div className="thumb tertiary-background"></div>
           <h3>Pedro Alves</h3>
           <p>São Paulo, Brasil</p>
           <img src={LikedFilled} alt="" className="img" />
         </div>
-        <div className="project-card d-flex jc-center fd-column">
+        <div className="projects-card d-flex jc-center fd-column">
           <div className="thumb tertiary-background"></div>
           <h3>Pedro Alves</h3>
           <p>São Paulo, Brasil</p>
           <img src={LikedFilled} alt="" className="img" />
         </div>
-        <div className="project-card d-flex jc-center fd-column">
+        <div className="projects-card d-flex jc-center fd-column">
           <div className="thumb tertiary-background"></div>
           <h3>Pedro Alves</h3>
           <p>São Paulo, Brasil</p>
           <img src={LikedFilled} alt="" className="img" />
         </div>
-        <div className="project-card d-flex jc-center fd-column">
+        <div className="projects-card d-flex jc-center fd-column">
           <div className="thumb tertiary-background"></div>
           <h3>Pedro Alves</h3>
           <p>São Paulo, Brasil</p>
           <img src={LikedFilled} alt="" className="img" />
         </div>
-        <div className="project-card d-flex jc-center fd-column">
+        <div className="projects-card d-flex jc-center fd-column">
           <div className="thumb tertiary-background"></div>
           <h3>Pedro Alves</h3>
           <p>São Paulo, Brasil</p>
           <img src={LikedFilled} alt="" className="img" />
         </div>
-        <div className="project-card d-flex jc-center fd-column">
+        <div className="projects-card d-flex jc-center fd-column">
           <div className="thumb tertiary-background"></div>
           <h3>Pedro Alves</h3>
           <p>São Paulo, Brasil</p>
