@@ -34,7 +34,10 @@ export default function ProjectsList(props) {
           <div className="thumb tertiary-background"></div>
           <h3>Pedro Alves</h3>
           <p>São Paulo, Brasil</p>
+          <div>
           <img src={LikedFilled} alt="" className="img" />
+
+          </div>
         </div>
         <div className="projects-card d-flex jc-center fd-column">
           <div className="thumb tertiary-background"></div>
