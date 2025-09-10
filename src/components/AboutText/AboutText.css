@@ -14,3 +14,10 @@
 .text-section-text p{
     font-size: 50px;
 }
+
+@media (max-width: 768px) {
+  .text-section{
+    flex-direction: column;
+  }
+
+}
