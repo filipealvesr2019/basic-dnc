@@ -9,8 +9,8 @@ export default function AboutText(props) {
             </div>
             <div className='text-section-text'>
                <p className='primary-color'>Primeira linha</p>
-               <p className='primary-color'>Segunda linha</p>
-               <p className='primary-color'>Terceira linha</p>
+               <p>Segunda linha</p>
+               <p>Terceira linha</p>
             </div>
 
             </div>

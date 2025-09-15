@@ -1,7 +1,7 @@
+import AboutText from "../components/AboutText/AboutText";
 import Banner from "../components/Banner/Banner";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import ProjectsList from "../components/ProjectsList/ProjectsList";
 
 export default function About(){
     return (
@@ -11,7 +11,7 @@ export default function About(){
                      <p>Subtitle</p>
                      <Banner title="About" image="about.png" />
                      <div className="container">
-                     <ProjectsList />
+                     <AboutText />
                      </div>
                      <Footer />
         </>
