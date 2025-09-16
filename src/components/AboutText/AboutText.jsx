@@ -5,7 +5,7 @@ export default function AboutText(props) {
          <div className='container'>
             <div className='text-section d-flex'>
             <div className='text-section-text'>
-               <h2>ABC Ser</h2>
+               <h2>We set the trends of modern living Services.</h2>
             </div>
             <div className='text-section-text'>
                <p className='primary-color'>It is a long established fact that a reader will be distracted by the of readable content of a page</p>
