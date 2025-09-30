@@ -10,6 +10,10 @@ header ul, li{
     display: flex;
 }
 
+nav{
+    display: flex;
+}
+
 nav a{
     color: #1d1d1d;
     font-size: 20px;
@@ -19,4 +23,15 @@ nav a{
 
 nav a:hover{
     color: #0c70fc;
+}
+
+@media screen and (max-width: 768px){
+    nav.open {
+        display: flex;
+        align-items: center;
+    }
+
+    nav{
+        background-color: #1d1d1d;
+    }
 }
