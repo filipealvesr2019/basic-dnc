@@ -33,5 +33,16 @@ nav a:hover{
 
     nav{
         background-color: #1d1d1d;
+        border-left: 10px solid #333;
+        display: none;
+        flex-direction: column;
+        height: 100%;
+        padding: 37px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 40vw;
+        z-index: 1;
+        box-shadow: -50;
     }
 }
