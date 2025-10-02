@@ -43,6 +43,18 @@ nav a:hover{
         top: 0;
         width: 40vw;
         z-index: 1;
-        box-shadow: -50;
+        box-shadow: -50vw 0px 0px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        border-bottom: 1px solid white;
+        color: white;
+        font-size: 20px;
+        margin: 0 0 10px 0;
     }
 }
