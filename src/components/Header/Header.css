@@ -52,9 +52,30 @@ nav a:hover{
     }
 
     nav ul li {
+        display: flex;
+    }
+
+    nav a{
         border-bottom: 1px solid white;
         color: white;
         font-size: 20px;
         margin: 0 0 10px 0;
+        padding: 12px;
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+    .close-btn{
+        background: none;
+        border: none;
+        color: white;
+        font-size: 25px;
+        margin: 0 0 12px;
+        padding: 12px;
+        width: fit-content;
     }
 }
