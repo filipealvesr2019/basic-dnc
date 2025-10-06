@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
 import Logo from '../../assets/dnc-logo.png'
 import './Header.css'
+import Button from "../Button/Button"
+// COMPONENTS
+
 export default function Header(){
 
     // ASSETS
@@ -9,6 +12,13 @@ export default function Header(){
             <div className="container">
                 <div className="d-flex al-center jc-space-between">
                     <Link to="/"><img src={Logo} /></Link>
+                    <div className='mobile-menu'>
+                        <Button buttonStyle={"secondary"}>
+                            Menu
+
+                            </Button>  
+                            
+                    </div>
                       <nav>
                 <ul>
                     <li>
