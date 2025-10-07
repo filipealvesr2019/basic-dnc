@@ -25,6 +25,10 @@ nav a:hover{
     color: #0c70fc;
 }
 
+ .mobile-menu{
+        display: none;
+    }
+
 @media screen and (max-width: 768px){
     nav.open {
         display: flex;
