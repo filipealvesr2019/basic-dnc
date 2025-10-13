@@ -57,6 +57,7 @@ nav a:hover{
 
     nav ul li {
         display: flex;
+        flex-direction: column;
     }
 
     nav a{

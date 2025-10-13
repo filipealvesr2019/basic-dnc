@@ -24,7 +24,7 @@ export default function Header() {
               Menu
             </Button>
           </div>
-          <nav className={`${isOpen ? "open" : ""}`}>
+          <nav className={`${isOpen ? "a" : ""}`}>
             <ul>
               <li>
                 <Link to="/">Home</Link>
