@@ -7,6 +7,9 @@ import { useState } from "react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen)
+  }
 
   // ASSETS
   return (
@@ -24,8 +27,8 @@ export default function Header() {
               Menu
             </Button>
           </div>
-          <nav className={`${isOpen ? "a" : ""}`} >
-            <Button buttonStyle="unstyled" className="mobile-menu close-btn">
+          <nav className={`${isOpen ? "open" : ""}`} >
+            <Button buttonStyle="unstyled" className="mobile-menu close-btn" onClick={() => setIsOpen(!isOpen)}>
               X
             </Button>
             <ul>
