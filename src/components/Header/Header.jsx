@@ -24,7 +24,10 @@ export default function Header() {
               Menu
             </Button>
           </div>
-          <nav className={`${isOpen ? "a" : ""}`}>
+          <nav className={`${isOpen ? "a" : ""}`} >
+            <Button buttonStyle="unstyled" className="mobile-menu close-btn">
+              X
+            </Button>
             <ul>
               <li>
                 <Link to="/">Home</Link>
