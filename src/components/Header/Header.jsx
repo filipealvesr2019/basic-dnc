@@ -22,13 +22,13 @@ export default function Header() {
           <div className="mobile-menu">
             <Button
               buttonStyle={"secondary"}
-              onClick={() => setIsOpen(!isOpen)}
+              onClick={toggleMenu}
             >
               Menu
             </Button>
           </div>
           <nav className={`${isOpen ? "open" : ""}`} >
-            <Button buttonStyle="unstyled" className="mobile-menu close-btn" onClick={() => setIsOpen(!isOpen)}>
+            <Button buttonStyle="unstyled" className="mobile-menu close-btn" onClick={toggleMenu}>
               X
             </Button>
             <ul>

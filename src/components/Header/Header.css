@@ -32,7 +32,7 @@ nav a:hover{
 @media screen and (max-width: 768px){
     nav.open {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
     }
 
     nav{
