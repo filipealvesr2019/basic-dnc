@@ -42,8 +42,8 @@ export default function Footer() {
              <div className="d-flex mobile-fd-column">
               <div className="footer-col">
                 <h3>Pages</h3>
-                <ul className="ul">
-                  <li >
+                <ul >
+                  <li className="li">
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/projects">Projects</Link>

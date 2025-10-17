@@ -59,7 +59,11 @@
 .copyright{
     margin-right: 2rem;   
 }
-
+ .li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
 @media screen and (max-width: 768px){
     .footer-col {
         margin: 0 0 0 0;
