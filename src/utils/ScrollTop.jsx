@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react';
 
-const SCollTop = () => {
-    
+const ScrollTop = () => {
+
 }
