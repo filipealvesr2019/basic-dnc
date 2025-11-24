@@ -6,13 +6,14 @@ export const getApiData = async (endpoint, params) => {
         });
 
         if (!response.ok){
-            throw new Error(`Error: ${response.status}`)
+            console.error(`Error: ${response.status}`)
         }
 
         const data = await response.json();
 
         return data
     } catch(err) {
+        console.error(`Catch Error: `, err)
         
     }
 }
