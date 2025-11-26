@@ -11,12 +11,15 @@ export default function ProjectsList(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-
+        const projectsResponse = await getApiData(`projects`);
+        setProjects(projectsResponse)
       } catch(err){
-        
+        setProjects([])
       }
     }
-  })
+
+    fetchData()
+  }, [])
   return (
     <div className="projects-section">
       <div className="projects-hero">
