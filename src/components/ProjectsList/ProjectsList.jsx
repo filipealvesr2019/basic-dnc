@@ -30,6 +30,11 @@ export default function ProjectsList(props) {
         </p>
       </div>
       <div className="projects-grid">
+      {projects.map((project) => (
+        <div key={}>
+
+        </div>
+      )}
         <div className="projects-card d-flex jc-center fd-column ">
           <div className="thumb tertiary-background"></div>
           <h3>Pedro Alves</h3>
