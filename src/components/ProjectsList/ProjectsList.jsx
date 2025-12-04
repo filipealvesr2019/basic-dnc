@@ -6,7 +6,7 @@ import LikedFilled from "../../assets/like_filled.svg";
 import { getApiData } from "../../Services/apiServices";
 
 export default function ProjectsList(props) {
-  const [projects, setProjects] = useState();
+  const [projects, setProjects] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
