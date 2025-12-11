@@ -20,6 +20,8 @@ export default function ProjectsList(props) {
 
     fetchData()
   }, [])
+
+  
   return (
     <div className="projects-section">
       <div className="projects-hero">
