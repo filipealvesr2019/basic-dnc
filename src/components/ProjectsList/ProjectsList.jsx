@@ -51,7 +51,7 @@ const thumbsMock = [
         </p>
       </div>
       <div  className="projects-grid">
-      {projects.map((project) => (
+      { projects ? projects.map((project) => (
         <div className="projects-card d-flex jc-center fd-column" key={project.id}>
             <div 
             className="thumb tertiary-background"
@@ -64,7 +64,7 @@ const thumbsMock = [
 
           </div>
         </div>
-      ))}
+      )) : null}
        
       </div>
     </div>
