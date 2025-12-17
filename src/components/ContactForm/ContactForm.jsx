@@ -5,7 +5,15 @@ export default function ContactForm(){
                 
             </div>
             <h2>We love meeting new people and helping them.</h2>
-        <form action="">Wip..</form>
+        <form action="">
+            <div className="d-flex form-group">
+                <input 
+                className="form-input"
+                type="text"
+                id="name"
+                name="name"
+            </div>
+        </form>
          </div>
     )
 }
