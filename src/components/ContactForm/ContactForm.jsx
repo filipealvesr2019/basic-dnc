@@ -1,3 +1,7 @@
+
+// COMPONENTS
+import Button from "../../components/Button/Button"
+
 export default function ContactForm() {
   return (
     <div className="container">
@@ -26,6 +30,12 @@ export default function ContactForm() {
             placeholder="Mensagem *"
             rows="4"
             />
+        </div>
+        <div>
+         <Button  type="submit" buttonStyle="primary">
+          Enviar
+         </Button>
+
         </div>
       </form>
     </div>
