@@ -1,7 +1,7 @@
 
 // COMPONENTS
 import Button from "../../components/Button/Button"
-
+import "./ContactForm.css"
 export default function ContactForm() {
   return (
     <div className="container">
